@@ -1,0 +1,93 @@
+a {
+text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #FFF;
+    color: #434B53;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* HEADER STYLES */
+
+.container {
+width: 1210px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+.page-header {
+    border-bottom: 3px solid #2C7250;
+}
+.page-nav {
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+}
+.logo-header {
+color: #2C7250;
+font-family: Montserrat, sans-serif;
+font-size: 25px;
+font-weight: 900;
+line-height: 1.5;
+text-transform: uppercase;
+margin-right: 169px;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list-item:not(:last-child) {
+    margin-right: 40px;
+}
+.nav-link {
+display: block;
+color: #2E363E;
+font-size: 18px;
+font-weight: 500;
+line-height: 1.5;
+padding-top: 57px;
+padding-bottom: 57px;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #2C7250;
+}
+
+.contacts {
+    font-style: normal;
+}
+.contacts-link {
+color: #2C7250;
+text-align: right;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.52;
+}
