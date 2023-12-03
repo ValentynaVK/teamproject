@@ -218,3 +218,23 @@ button {
   margin-bottom: 33px;
   display: block;
 }
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #006333;
+  border: none;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

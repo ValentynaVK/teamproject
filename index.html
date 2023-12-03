@@ -51,7 +51,7 @@
           We work only in small towns. Thanks to this, we maintain quality and
           we will not spray
         </p>
-        <button type="button">Submit your application</button>
+        <button type="button" data-modal-open>Submit your application</button>
         <img src="./images/hero-img.svg" alt="hero-img" width="572" />
       </section>
       <section>
@@ -185,8 +185,9 @@
 
       <section></section>
     </main>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close></button>
         <p class="modal-text">Contact Us</p>
         <p class="modal-title">
           <span class="modal-title-part">Contact</span> Us & We Can Work
@@ -223,5 +224,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
